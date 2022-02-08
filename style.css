@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+body {
+    background-image: url(./img/9eiG52U.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+
+}
+
+.countdown {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    padding: 5rem;
+}
+
+.loading {
+    width: 3rem;
+}
