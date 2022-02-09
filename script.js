@@ -6,7 +6,14 @@ let days = document.getElementById("days");
 let hours = document.getElementById("hours");
 let minutes = document.getElementById("minutes");
 let seconds = document.getElementById("seconds");
+let icon = document.getElementById("loading");
+///*************************************************** */
+function iconKayip(event) {
+  icon.style.display = "none";
+}
 
+setTimeout(iconKayip,2000);
+//****************************************************** */
 userBirthday.addEventListener("change", zaman);
 
 function zaman(event) {
