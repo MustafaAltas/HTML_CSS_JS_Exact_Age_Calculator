@@ -3,10 +3,15 @@
     padding: 0px;
     box-sizing: border-box;
     font-size: 25px;
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
 }
 
 body {
-    background-image: url(./img/9eiG52U.jpg);
+    background-image: url(./img/vintage-1557993_1920.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,8 +29,65 @@ body {
     flex-direction: row;
     gap: 6rem;
     padding: 5rem;
+
+}
+
+.time h2, small {
+    font-size: 30px;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+input[name=birthday] {
+    color: black;
 }
 
 .loading {
     width: 3rem;
+}
+
+@media screen and (max-width:1184px) and (min-width:680px) {
+    * {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .time h2, small {
+        font-size: 20px;
+    }
+    body {
+        padding-top: 3rem;
+    }
+    .countdown {
+        gap: 3rem;
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width:679px) and (min-width:500px) {
+    * {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    .time h2, small {
+        font-size: 15px;
+    }
+    body {
+        padding-top: 1rem;
+    }
+    .countdown {
+        gap: 2rem;
+        padding: 2rem;
+        margin-top: 3rem;
+    }
 }

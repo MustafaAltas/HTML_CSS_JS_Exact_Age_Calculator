@@ -11,7 +11,7 @@ userBirthday.addEventListener("change", zaman);
 
 function zaman(event) {
   if (new Date(userBirthday.value) > new Date()) {
-    alert("olmaz");
+    alert("İleri Bir Tarih Giremezsiniz !!! \n***Lütfen Sayfayı Yenileyin***");
     userBirthday.value = "";
   } else {
     setInterval(() => {
